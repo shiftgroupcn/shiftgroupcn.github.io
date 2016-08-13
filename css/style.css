@@ -723,12 +723,12 @@ nav.desktop.sticky #search { padding-top: 6px; padding-bottom: 6px; }
 
 footer {
 	color: #f2f2f1;
-	background: #303336;
-	background: -webkit-linear-gradient(top, #303336 0%, #303336 70%, #18191b 70%, #18191b 100%);
+	background: #fff;
+	/*background: -webkit-linear-gradient(top, #303336 0%, #303336 70%, #18191b 70%, #18191b 100%);
 	background:    -moz-linear-gradient(top, #303336 0%, #303336 70%, #18191b 70%, #18191b 100%);
 	background:     -ms-linear-gradient(top, #303336 0%, #303336 70%, #18191b 70%, #18191b 100%);
 	background:      -o-linear-gradient(top, #303336 0%, #303336 70%, #18191b 70%, #18191b 100%);
-	background: 		linear-gradient(top, #303336 0%, #303336 70%, #18191b 70%, #18191b 100%);
+	background: 		linear-gradient(top, #303336 0%, #303336 70%, #18191b 70%, #18191b 100%);*/
 }
 
 footer .contact-list, footer .social-list { padding: 50px 0px; }
@@ -802,15 +802,15 @@ footer .social-list li.copyright { font-size: 12px; color: #aaaaaa;}
 
 @media (min-width: 992px) {
 	footer {
-		background: #303336;
-		background: -webkit-linear-gradient(left, #303336 0%, #303336 65%, #18191b 65%, #18191b 100%);
+		background: #fff;
+		/*background: -webkit-linear-gradient(left, #303336 0%, #303336 65%, #18191b 65%, #18191b 100%);
 		background:    -moz-linear-gradient(left, #303336 0%, #303336 65%, #18191b 65%, #18191b 100%);
 		background:     -ms-linear-gradient(left, #303336 0%, #303336 65%, #18191b 65%, #18191b 100%);
 		background:      -o-linear-gradient(left, #303336 0%, #303336 65%, #18191b 65%, #18191b 100%);
-		background: 		linear-gradient(left, #303336 0%, #303336 65%, #18191b 65%, #18191b 100%);
+		background: 		linear-gradient(left, #303336 0%, #303336 65%, #18191b 65%, #18191b 100%);*/
 	}
 
-	footer .contact-list { text-align: left; }
+	footer .contact-list { text-align: center; }
 	footer .social-list { text-align: right; }
 
 	footer .contact-list li { margin-right: 50px; padding-bottom: 0; }
