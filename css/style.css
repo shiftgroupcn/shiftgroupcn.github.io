@@ -513,7 +513,7 @@ nav.mobile #search {
 
 header.desktop {
 	z-index: 99;
-	padding: 60px 0px 0px 5%;
+	padding: 20px 0px 0px 5%;
 	width: 20%;
 	left: 0;
 }
@@ -525,7 +525,7 @@ nav.desktop {
 	position: absolute;
 	display: block!important;
 	z-index: 99;
-	padding: 60px 5% 0px 0px;
+	padding: 20px 5% 0px 0px;
 	width: 80%;
 	right: 0;
 }
@@ -561,7 +561,7 @@ nav.desktop .search-trigger.open:before {
 	display: none;
 }
 
-nav.desktop .nav-content { float: right; position: relative; }
+nav.desktop .nav-content { float: left; position: relative; }
 
 nav.desktop .nav-content li { float: left; padding-right: 35px; position: relative; }
 
