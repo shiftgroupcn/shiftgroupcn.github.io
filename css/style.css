@@ -848,6 +848,7 @@ footer .social-list li.copyright { font-size: 12px; color: #aaaaaa;}
 	.hero .line { display: block; height: 40px; margin-top: 10px; }
   #head {background-image: url(../images/images/1.1/01.jpg);}
   #slogan {margin-top:400px;}
+  section {padding-left: 50px;padding-right: 50px;}
 }
 
 @media (min-width: 1200px) {
