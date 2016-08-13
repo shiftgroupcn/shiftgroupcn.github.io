@@ -374,7 +374,7 @@ header.mobile {
 
 header.mobile .logo {
 	margin-left: 20px;
-	float: left;
+	display: block;
 }
 
 header.mobile .nav-button {
@@ -405,9 +405,9 @@ header.mobile .nav-button.open .button-bars {
 header.mobile .nav-button .button-bars:after {
 	display: block;
 	margin-left: 15px;
-	content: "menu";
+	content: "Menu";
 	font-size: 12px;
-	color: #fff;
+	color: #000;
 	line-height: 35px;
 	text-transform: uppercase;
 
@@ -1762,8 +1762,8 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
-	header.mobile .nav-button .button-bars { background: url(../images/icons/menu-lines@2x.png) no-repeat; background-size: 10px 11px; background-position: center left; }
-	header.mobile .nav-button.open .button-bars { background: url(../images/icons/menu-close@2x.png) no-repeat; background-size: 10px 11px; background-position: center left; }
+	header.mobile .nav-button .button-bars { background: url(../images/icons/menu-lines-black@2x.png) no-repeat; background-size: 12px 11px; background-position: center left; }
+	header.mobile .nav-button.open .button-bars { background: url(../images/icons/menu-close-black@2x.png) no-repeat; background-size: 10px 16px; background-position: center left; }
 	nav.mobile .nav-content li.drop a { background: url(../images/icons/drop@2x.png) no-repeat; background-size: 9px 5px; background-position: right center; }
 	nav.mobile .nav-content li.drop a.open { background: url(../images/icons/drop-up@2x.png) no-repeat; background-size: 9px 5px; background-position: right center; }
 	nav.mobile .nav-content #search { background: url(../images/icons/search-xs@2x.png) no-repeat; background-size: 16px 16px; background-position: 12px; }
