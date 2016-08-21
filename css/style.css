@@ -218,6 +218,7 @@ h6 {
 .center { text-align: center; }
 
 .center-mobile { text-align: center; }
+.left-mobile { text-align: left; }
 
 @media (min-width: 768px) {
 	.content { padding-top: 60px; padding-bottom: 50px; }
@@ -1908,4 +1909,21 @@ div.image-container25 {
 div.image-container img {
   width: 100%;
   height: auto;
+}
+
+
+@media (max-width: 768px) {
+  .map-container {
+    padding-top: 40px;
+  }
+
+  .mobile-hide {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .desktop-hide {
+    display: none;
+  }
 }
